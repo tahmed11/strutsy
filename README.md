@@ -22,7 +22,7 @@ Google Dork syntax: inurl:"struts" filetype:action
 
 This module exploits vulnerable Apache Struts (CVE-2017-5638) which fails to validate Content-Type HTTP headers resulting in arbitrary command execution. 
 The original exploit (https://www.exploit-db.com/exploits/41570/) has been modified to include blind and time based blind command injection for windows and linux platforms. 
-Please note the exploit actively exploits the remote system hence please ensure you have permission to scan the target first before using this tool. 
+Please note the tool actively exploits the remote system hence please ensure you have permission to scan the target first before using this tool. 
  
 Vulnerable Apache struts versions:  2.3.5 through 2.3.31 and 2.5 through 2.5.10.
 
