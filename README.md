@@ -2,7 +2,7 @@
 Strutsy - Mass exploitation of Apache Struts (CVE-2017-5638) vulnerability. Includes **blind** and **time based code injection** techniques which significantly reduces false negatives. Other features include mass URL imports to scan multiple targets in one go.
 
 ## Usage: 
-### python strutsy.py urls.txt windows/linux/default ip-address
+### python strutsy.py *urls.txt windows/linux/default ip-address*
 
 *All parameters are required.*
 
