@@ -7,7 +7,7 @@ Strutsy - Mass exploitation of Apache Struts (CVE-2017-5638) vulnerability. Incl
 *All parameters are required.*
 
 1. urls.txt - file containing the urls that are to be tested.
-2. platform - should include either windows/linux/default.
+2. platform - should include either windows/linux/default. Use default if you are not sure if it's a windows or linux enviornment.
 3. ip-address - public facing ip-address required to test blind injection. Please note apache should be installed and the apache log files should be readable in-order to read the http request. If you donot wish to test against this feature input an arbitary ip-address.  
 
 urls.txt:
