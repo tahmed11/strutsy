@@ -111,7 +111,7 @@ def check_time_blind_injection(url,cmd):
 	exploit(url,cmd,0)
 	end_time = time.time()
 	delay = end_time - start_time
-	if (delay >5 or delay <10):
+	if (delay >5 ):
 		print (url," is vulnerable to time based blind command injection")
 	return
 
