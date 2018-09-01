@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "sample Threat model",
+    "owner": "Tanvir Ahmed",
+    "description": "Tanvir"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Oauth2.0",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
